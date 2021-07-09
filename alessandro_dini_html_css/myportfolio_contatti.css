@@ -1,0 +1,338 @@
+body{
+  background-color: #200772;
+  color: white;
+  margin-top: 0%;
+  margin-left: 0% ;
+  margin-right: 0%;
+  margin-bottom: 0%;
+
+}
+/*navbar*/
+header .navbar {
+  background-color:blue;
+  margin: auto;
+padding: 1.0em 0 1.0em .5em;
+font-size: 1.3em;
+font-weight: normal;
+margin-top: 0;
+position: fixed;
+overflow: hidden;
+top:0;
+width:100% ;
+
+}
+i{
+  color:rgb(240, 8, 136);
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+  ul li {
+     display: inline;
+letter-spacing: 1.5px;
+
+     }
+     ul li a
+     {
+      font-weight: bold;
+     text-decoration: none;
+     padding: .2em 1em;
+     color:rgba(255, 230, 0, 0.89);
+
+     }
+     li span
+     {
+       float: right;
+       margin-right: 80px;
+
+     }
+     li:last-child
+     {
+       float:right;
+       margin-right:10px;
+     }
+
+     .navbar ul li span {
+      font-size: 1em;
+      color: rgb(111, 71, 255);
+     }
+
+     .navbar ul li a:hover
+{
+  padding-top: 100%;
+  padding-bottom: 100%;
+color:black;
+background-color: rgb(68, 115, 202);
+}
+.navbar ul li span:hover
+{
+color:red;
+background-color: #369;
+}
+#cross{
+  float: right;
+  margin-right: 20px;
+}
+/*prova navigation image*/
+.image2 {
+  width: 30px;
+
+
+
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+/*descrizione scritta form menu*/
+.form-cont{
+font-family: Arial;
+color:red;
+font-size:20px;
+font-weight:bold;
+}
+#selective{
+  display: none;
+  color:rgba(255, 230, 0, 0.89);
+  font-size:20px;
+  font-weight:bold;
+  }
+
+
+/*fine navbar, inizio pagina*/
+.scritta-inizio{
+  margin-top: 16vh;
+}
+/*input[type=text], select, */.campo {
+  width: 90%;
+  padding: 20px 20px;
+  margin: 14px 0 10px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+}
+/*pulsante invio form*/
+/*input[type=button] input[type=submit], input[type=reset] */#sub-form{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 40%;
+  border-radius:30px;
+
+
+}
+#nomeForm, #mailForm{
+width:40%;
+border-radius: 0%;
+}
+#pulsForm{
+border-radius: 0%;
+}
+textarea{
+
+  resize: none;
+  border-radius: 10px;
+}
+fieldset {
+    margin-top: 2%;
+    background-color: #ffffff;
+  width: 95%;
+  border-radius: 15px;
+}
+label{
+  padding: 10px;
+  margin-top: 20px;
+}
+.animated--animazione {
+  animation: rotate_effect  5s infinite ease-in-out;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.item{
+  width: 47%;
+}
+
+@keyframes rotate_effect{
+0%{ transform: rotate(0deg);}
+20% { transform: rotate(0deg);}
+40% { transform: rotate(10deg);}
+60% { transform: rotate(-10deg);}
+80% { transform: rotate(0deg);}
+100% { transform: rotate(0deg);}
+}
+/*icone allineamento*/
+.contactInfoBx .box .icon {
+  color: #ffd300
+  min-width: 30%:
+display:flex;
+justify: center;
+align-items: flex-start;
+
+
+}
+/*icone  da indixazione*/
+.icon {float:left;
+position: ;
+padding-right: 2%;
+color: red;
+font-size: 30px;
+}
+.iconb {float:left;
+position: ;
+padding-right: 4%;
+color: red;
+font-size: 45px;
+}
+#jack:hover{
+  color: yellow;
+}
+#cont-icons{
+  color: red;
+}
+
+/*id delle icone social*/
+
+#jack{
+  color:red;
+
+}
+
+  }
+  .section{
+  margin-right: 10%;
+  }
+  .iconp{
+    position: relative;
+    float:right;
+     margin-left: 8%}
+     .text2{margin-left: 4%}
+     .text{
+       color: yellow;
+     }
+
+    /*footer*/
+    .footer-container{
+
+      padding-bottom: 4rem;
+      font-family: Arial;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      color:#FFCF00;
+      background-color: blue;
+
+  }
+    .footer{
+      width: 100%;
+      height: 30vh;
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      /*margin: 0 auto;*/
+      margin-top: 20vh;
+    }
+    .footer-heading{
+      display: flex;
+      flex-direction: column;
+      margin-right: 1rem;
+      justify-content: center;
+      width: 20%;
+      margin-top: 2vh;
+    }
+    #input-news {
+    width: 250px;
+    height: 30px;
+    padding-left: 0,5rem;
+    margin-bottom:8px;
+    margin-top: 1rem;
+    }
+    #btn-news{
+      width: 130px;
+      height: 30px;
+      background-color: red;
+
+    }
+    #jack:hover{
+      cursor: pointer;
+      background-color: orange;
+      transition: all 0,4s ease-out;
+    }
+    #btn-news:hover{
+      cursor: pointer;
+      background-color: orange;
+      transition: all 0,4s ease-out;
+      color: black;
+    }
+    .boxSocial{
+      margin-top: 3vh;
+    }
+    /*social media icone*/
+    #jack{
+      color:red;
+
+    }
+
+
+      .section{
+      margin-right: 10%;
+      }
+
+         .iconb {float:left;
+
+         padding-right: 4%;
+         color: red;
+         font-size: 45px;
+
+         }
+         @media screen and (max-width: 1100px){
+              .footer{
+                justify-content: space-around;
+          display: block;
+          height: auto;
+          margin-left: 10vh;
+          }
+      @media screen and (max-width: 800px){
+
+      .container {
+      flex-direction: column;
+      /****/
+      margin-left: 10vh;
+    }
+    .item{
+      width:95%;
+    }
+  }
+
+
+     /*media menu a tendina*/
+     @media screen and (max-width: 680px) {
+       /*contaiener footer*/
+
+
+       /*menu a tendina*/
+       #selective {
+           display: initial;
+         }
+         /*pulsanti menu*/
+         .scritta-closed {
+           display: none;
+         }
+
+         /*float union jack flag*/
+         #cross{
+           float: left;
+         }
+       }
